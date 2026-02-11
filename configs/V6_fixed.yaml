@@ -25,7 +25,6 @@ pages:
   name: Trial 0
   reference: subjective_test_V6_audio/clean_0.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_0.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_0.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_0.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_0.wav
@@ -69,7 +68,6 @@ pages:
   name: Trial 2
   reference: subjective_test_V6_audio/clean_2.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_2.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_2.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_2.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_2.wav
@@ -113,7 +111,6 @@ pages:
   name: Trial 3
   reference: subjective_test_V6_audio/clean_3.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_3.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_3.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_3.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_3.wav
@@ -157,7 +154,6 @@ pages:
   name: Trial 4
   reference: subjective_test_V6_audio/clean_4.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_4.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_4.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_4.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_4.wav
@@ -201,7 +197,6 @@ pages:
   name: Trial 7
   reference: subjective_test_V6_audio/clean_7.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_7.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_7.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_7.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_7.wav
@@ -245,7 +240,6 @@ pages:
   name: Trial 11
   reference: subjective_test_V6_audio/clean_11.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_11.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_11.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_11.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_11.wav
@@ -289,7 +283,6 @@ pages:
   name: Trial 14
   reference: subjective_test_V6_audio/clean_14.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_14.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_14.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_14.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_14.wav
@@ -333,7 +326,6 @@ pages:
   name: Trial 17
   reference: subjective_test_V6_audio/clean_17.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_17.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_17.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_17.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_17.wav
@@ -377,7 +369,6 @@ pages:
   name: Trial 20
   reference: subjective_test_V6_audio/clean_20.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_20.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_20.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_20.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_20.wav
@@ -421,7 +412,6 @@ pages:
   name: Trial 23
   reference: subjective_test_V6_audio/clean_23.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_23.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_23.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_23.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_23.wav
@@ -465,7 +455,6 @@ pages:
   name: Trial 24
   reference: subjective_test_V6_audio/clean_24.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_24.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_24.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_24.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_24.wav
@@ -509,7 +498,6 @@ pages:
   name: Trial 25
   reference: subjective_test_V6_audio/clean_25.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_25.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_25.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_25.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_25.wav
@@ -553,7 +541,6 @@ pages:
   name: Trial 26
   reference: subjective_test_V6_audio/clean_26.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_26.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_26.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_26.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_26.wav
@@ -597,7 +584,6 @@ pages:
   name: Trial 29
   reference: subjective_test_V6_audio/clean_29.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_29.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_29.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_29.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_29.wav
@@ -641,7 +627,6 @@ pages:
   name: Trial 31
   reference: subjective_test_V6_audio/clean_31.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_31.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_31.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_31.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_31.wav
@@ -685,7 +670,6 @@ pages:
   name: Trial 38
   reference: subjective_test_V6_audio/clean_38.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_38.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_38.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_38.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_38.wav
@@ -729,7 +713,6 @@ pages:
   name: Trial 40
   reference: subjective_test_V6_audio/clean_40.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_40.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_40.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_40.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_40.wav
@@ -773,7 +756,6 @@ pages:
   name: Trial 43
   reference: subjective_test_V6_audio/clean_43.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_43.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_43.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_43.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_43.wav
@@ -817,7 +799,6 @@ pages:
   name: Trial 45
   reference: subjective_test_V6_audio/clean_45.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_45.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_45.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_45.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_45.wav
@@ -861,7 +842,6 @@ pages:
   name: Trial 48
   reference: subjective_test_V6_audio/clean_48.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_48.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_48.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_48.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_48.wav
@@ -905,7 +885,6 @@ pages:
   name: Trial 98
   reference: subjective_test_V6_audio/clean_98.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_98.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_98.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_98.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_98.wav
@@ -949,7 +928,6 @@ pages:
   name: Trial 161
   reference: subjective_test_V6_audio/clean_161.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_161.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_161.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_161.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_161.wav
@@ -993,7 +971,6 @@ pages:
   name: Trial 165
   reference: subjective_test_V6_audio/clean_165.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_165.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_165.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_165.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_165.wav
@@ -1037,7 +1014,6 @@ pages:
   name: Trial 300
   reference: subjective_test_V6_audio/clean_300.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_300.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_300.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_300.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_300.wav
@@ -1081,7 +1057,6 @@ pages:
   name: Trial 337
   reference: subjective_test_V6_audio/clean_337.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_337.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_337.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_337.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_337.wav
@@ -1125,7 +1100,6 @@ pages:
   name: Trial 373
   reference: subjective_test_V6_audio/clean_373.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_373.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_373.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_373.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_373.wav
@@ -1169,7 +1143,6 @@ pages:
   name: Trial 382
   reference: subjective_test_V6_audio/clean_382.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_382.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_382.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_382.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_382.wav
@@ -1213,7 +1186,6 @@ pages:
   name: Trial 449
   reference: subjective_test_V6_audio/clean_449.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_449.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_449.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_449.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_449.wav
@@ -1257,7 +1229,6 @@ pages:
   name: Trial 522
   reference: subjective_test_V6_audio/clean_522.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_522.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_522.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_522.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_522.wav
@@ -1301,7 +1272,6 @@ pages:
   name: Trial 618
   reference: subjective_test_V6_audio/clean_618.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_618.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_618.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_618.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_618.wav
@@ -1345,7 +1315,6 @@ pages:
   name: Trial 686
   reference: subjective_test_V6_audio/clean_686.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_686.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_686.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_686.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_686.wav
@@ -1389,7 +1358,6 @@ pages:
   name: Trial 817
   reference: subjective_test_V6_audio/clean_817.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_817.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_817.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_817.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_817.wav
@@ -1433,7 +1401,6 @@ pages:
   name: Trial 897
   reference: subjective_test_V6_audio/clean_897.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_897.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_897.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_897.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_897.wav
@@ -1477,7 +1444,6 @@ pages:
   name: Trial 1177
   reference: subjective_test_V6_audio/clean_1177.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1177.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1177.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1177.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1177.wav
@@ -1521,7 +1487,6 @@ pages:
   name: Trial 1390
   reference: subjective_test_V6_audio/clean_1390.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1390.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1390.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1390.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1390.wav
@@ -1565,7 +1530,6 @@ pages:
   name: Trial 1408
   reference: subjective_test_V6_audio/clean_1408.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1408.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1408.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1408.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1408.wav
@@ -1609,7 +1573,6 @@ pages:
   name: Trial 1513
   reference: subjective_test_V6_audio/clean_1513.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1513.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1513.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1513.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1513.wav
@@ -1653,7 +1616,6 @@ pages:
   name: Trial 1563
   reference: subjective_test_V6_audio/clean_1563.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1563.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1563.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1563.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1563.wav
@@ -1697,7 +1659,6 @@ pages:
   name: Trial 1631
   reference: subjective_test_V6_audio/clean_1631.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1631.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1631.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1631.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1631.wav
@@ -1741,7 +1702,6 @@ pages:
   name: Trial 1651
   reference: subjective_test_V6_audio/clean_1651.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1651.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1651.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1651.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1651.wav
@@ -1785,7 +1745,6 @@ pages:
   name: Trial 1752
   reference: subjective_test_V6_audio/clean_1752.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1752.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1752.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1752.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1752.wav
@@ -1829,7 +1788,6 @@ pages:
   name: Trial 1881
   reference: subjective_test_V6_audio/clean_1881.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1881.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1881.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1881.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1881.wav
@@ -1873,7 +1831,6 @@ pages:
   name: Trial 1916
   reference: subjective_test_V6_audio/clean_1916.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1916.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1916.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1916.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1916.wav
@@ -1917,7 +1874,6 @@ pages:
   name: Trial 1991
   reference: subjective_test_V6_audio/clean_1991.wav
   stimuli:
-    Baseline: subjective_test_V6_audio/enhanced_baseline_1991.wav
     Condition_A: subjective_test_V6_audio/enhanced_finetuned_A_1991.wav
     Condition_B: subjective_test_V6_audio/enhanced_finetuned_B_1991.wav
     Condition_C: subjective_test_V6_audio/enhanced_finetuned_C_1991.wav
