@@ -1778,7 +1778,9 @@ pages:
 - content: All done! Click submit.
   id: end
   type: finish
-submissionUrl: service/write.php
 testId: BSE_Results_V2
 testname: BSE Evaluation - Set V2
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
 remoteService: https://script.google.com/macros/s/AKfycbzuDlffWm1JexK7N9qQmj-Xc9CMfapS0Xs5b3rnc6zE8ZuqRP-9OaQVwgcCM1bwHnfG/exec
