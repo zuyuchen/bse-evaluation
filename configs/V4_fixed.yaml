@@ -1,3 +1,9 @@
+testname: BSE Evaluation - Set V4
+testId: BSE_Results_V4
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: https://script.google.com/macros/s/AKfycbzuDlffWm1JexK7N9qQmj-Xc9CMfapS0Xs5b3rnc6zE8ZuqRP-9OaQVwgcCM1bwHnfG/exec
 pages:
 - content: <h3>Binaural Speech Enhancement Test</h3><p>Please ensure you are using
     <b>stereo headphones</b>.</p>
@@ -55,6 +61,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_2
   name: Trial 2
   reference: subjective_test_V4_audio/clean_2.wav
@@ -95,6 +105,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_3
   name: Trial 3
   reference: subjective_test_V4_audio/clean_3.wav
@@ -135,6 +149,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_4
   name: Trial 4
   reference: subjective_test_V4_audio/clean_4.wav
@@ -175,6 +193,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_7
   name: Trial 7
   reference: subjective_test_V4_audio/clean_7.wav
@@ -215,6 +237,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_11
   name: Trial 11
   reference: subjective_test_V4_audio/clean_11.wav
@@ -255,6 +281,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_14
   name: Trial 14
   reference: subjective_test_V4_audio/clean_14.wav
@@ -295,6 +325,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_17
   name: Trial 17
   reference: subjective_test_V4_audio/clean_17.wav
@@ -335,6 +369,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_20
   name: Trial 20
   reference: subjective_test_V4_audio/clean_20.wav
@@ -375,6 +413,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_23
   name: Trial 23
   reference: subjective_test_V4_audio/clean_23.wav
@@ -415,6 +457,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_24
   name: Trial 24
   reference: subjective_test_V4_audio/clean_24.wav
@@ -455,6 +501,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_25
   name: Trial 25
   reference: subjective_test_V4_audio/clean_25.wav
@@ -495,6 +545,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_26
   name: Trial 26
   reference: subjective_test_V4_audio/clean_26.wav
@@ -535,6 +589,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_29
   name: Trial 29
   reference: subjective_test_V4_audio/clean_29.wav
@@ -575,6 +633,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_31
   name: Trial 31
   reference: subjective_test_V4_audio/clean_31.wav
@@ -615,6 +677,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_38
   name: Trial 38
   reference: subjective_test_V4_audio/clean_38.wav
@@ -655,6 +721,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_40
   name: Trial 40
   reference: subjective_test_V4_audio/clean_40.wav
@@ -695,6 +765,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_43
   name: Trial 43
   reference: subjective_test_V4_audio/clean_43.wav
@@ -735,6 +809,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_45
   name: Trial 45
   reference: subjective_test_V4_audio/clean_45.wav
@@ -775,6 +853,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_48
   name: Trial 48
   reference: subjective_test_V4_audio/clean_48.wav
@@ -815,6 +897,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_56
   name: Trial 56
   reference: subjective_test_V4_audio/clean_56.wav
@@ -855,6 +941,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_57
   name: Trial 57
   reference: subjective_test_V4_audio/clean_57.wav
@@ -895,6 +985,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_158
   name: Trial 158
   reference: subjective_test_V4_audio/clean_158.wav
@@ -935,6 +1029,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_270
   name: Trial 270
   reference: subjective_test_V4_audio/clean_270.wav
@@ -975,6 +1073,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_332
   name: Trial 332
   reference: subjective_test_V4_audio/clean_332.wav
@@ -1015,6 +1117,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_336
   name: Trial 336
   reference: subjective_test_V4_audio/clean_336.wav
@@ -1055,6 +1161,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_417
   name: Trial 417
   reference: subjective_test_V4_audio/clean_417.wav
@@ -1095,6 +1205,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_440
   name: Trial 440
   reference: subjective_test_V4_audio/clean_440.wav
@@ -1135,6 +1249,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_524
   name: Trial 524
   reference: subjective_test_V4_audio/clean_524.wav
@@ -1175,6 +1293,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_571
   name: Trial 571
   reference: subjective_test_V4_audio/clean_571.wav
@@ -1215,6 +1337,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_600
   name: Trial 600
   reference: subjective_test_V4_audio/clean_600.wav
@@ -1255,6 +1381,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_606
   name: Trial 606
   reference: subjective_test_V4_audio/clean_606.wav
@@ -1295,6 +1425,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_697
   name: Trial 697
   reference: subjective_test_V4_audio/clean_697.wav
@@ -1335,6 +1469,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_995
   name: Trial 995
   reference: subjective_test_V4_audio/clean_995.wav
@@ -1375,6 +1513,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1002
   name: Trial 1002
   reference: subjective_test_V4_audio/clean_1002.wav
@@ -1415,6 +1557,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1048
   name: Trial 1048
   reference: subjective_test_V4_audio/clean_1048.wav
@@ -1455,6 +1601,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1081
   name: Trial 1081
   reference: subjective_test_V4_audio/clean_1081.wav
@@ -1495,6 +1645,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1360
   name: Trial 1360
   reference: subjective_test_V4_audio/clean_1360.wav
@@ -1535,6 +1689,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1363
   name: Trial 1363
   reference: subjective_test_V4_audio/clean_1363.wav
@@ -1575,6 +1733,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1383
   name: Trial 1383
   reference: subjective_test_V4_audio/clean_1383.wav
@@ -1615,6 +1777,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1536
   name: Trial 1536
   reference: subjective_test_V4_audio/clean_1536.wav
@@ -1655,6 +1821,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1618
   name: Trial 1618
   reference: subjective_test_V4_audio/clean_1618.wav
@@ -1695,6 +1865,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1722
   name: Trial 1722
   reference: subjective_test_V4_audio/clean_1722.wav
@@ -1735,6 +1909,10 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
 - id: sample_1831
   name: Trial 1831
   reference: subjective_test_V4_audio/clean_1831.wav
@@ -1775,10 +1953,13 @@ pages:
     Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
 
     </ul>'
-- content: All done! Click submit.
-  id: end
+  showWaveform: true
+  enableLooping: true
+  createAnchor35: false
+  createAnchor70: false
+- content: Thank you for completing the test! Click submit to save your results.
+  id: finish
   type: finish
-submissionUrl: service/write.php
-testId: BSE_Results_V4
-testname: BSE Evaluation - Set V4
-remoteService: https://script.google.com/macros/s/AKfycbzuDlffWm1JexK7N9qQmj-Xc9CMfapS0Xs5b3rnc6zE8ZuqRP-9OaQVwgcCM1bwHnfG/exec
+  showResults: false
+  writeResults: true
+  name: Thank You
