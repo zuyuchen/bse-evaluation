@@ -24,7 +24,6 @@ pages:
   name: Trial 0
   reference: subjective_test_V1_audio/clean_0.wav
   stimuli:
-    Baseline: subjective_test_V1_audio/enhanced_baseline_0.wav
     Condition_A: subjective_test_V1_audio/enhanced_finetuned_A_0.wav
     Condition_B: subjective_test_V1_audio/enhanced_finetuned_B_0.wav
     Condition_C: subjective_test_V1_audio/enhanced_finetuned_C_0.wav
