@@ -1,0 +1,1784 @@
+pages:
+- content: <h3>Binaural Speech Enhancement Test</h3><p>Please ensure you are using
+    <b>stereo headphones</b>.</p>
+  id: intro
+  type: generic
+  name: Welcome
+- content: Please confirm your volunteer ID. You should be using the test for <b>Volunteer
+    V5</b>.
+  id: participant_info
+  name: Participant Confirmation
+  questions:
+  - id: p_name
+    text: 'Volunteer Name/ID:'
+    type: text
+    label: 'Your Volunteer ID:'
+    optional: false
+  type: generic
+- id: sample_0
+  name: Trial 0
+  reference: subjective_test_V5_audio/clean_0.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_0.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_0.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_0.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_0.wav
+    Noisy: subjective_test_V5_audio/noisy_0.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_2
+  name: Trial 2
+  reference: subjective_test_V5_audio/clean_2.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_2.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_2.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_2.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_2.wav
+    Noisy: subjective_test_V5_audio/noisy_2.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_3
+  name: Trial 3
+  reference: subjective_test_V5_audio/clean_3.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_3.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_3.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_3.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_3.wav
+    Noisy: subjective_test_V5_audio/noisy_3.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_4
+  name: Trial 4
+  reference: subjective_test_V5_audio/clean_4.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_4.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_4.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_4.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_4.wav
+    Noisy: subjective_test_V5_audio/noisy_4.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_7
+  name: Trial 7
+  reference: subjective_test_V5_audio/clean_7.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_7.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_7.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_7.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_7.wav
+    Noisy: subjective_test_V5_audio/noisy_7.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_11
+  name: Trial 11
+  reference: subjective_test_V5_audio/clean_11.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_11.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_11.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_11.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_11.wav
+    Noisy: subjective_test_V5_audio/noisy_11.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_14
+  name: Trial 14
+  reference: subjective_test_V5_audio/clean_14.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_14.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_14.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_14.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_14.wav
+    Noisy: subjective_test_V5_audio/noisy_14.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_17
+  name: Trial 17
+  reference: subjective_test_V5_audio/clean_17.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_17.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_17.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_17.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_17.wav
+    Noisy: subjective_test_V5_audio/noisy_17.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_20
+  name: Trial 20
+  reference: subjective_test_V5_audio/clean_20.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_20.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_20.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_20.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_20.wav
+    Noisy: subjective_test_V5_audio/noisy_20.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_23
+  name: Trial 23
+  reference: subjective_test_V5_audio/clean_23.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_23.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_23.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_23.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_23.wav
+    Noisy: subjective_test_V5_audio/noisy_23.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_24
+  name: Trial 24
+  reference: subjective_test_V5_audio/clean_24.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_24.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_24.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_24.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_24.wav
+    Noisy: subjective_test_V5_audio/noisy_24.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_25
+  name: Trial 25
+  reference: subjective_test_V5_audio/clean_25.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_25.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_25.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_25.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_25.wav
+    Noisy: subjective_test_V5_audio/noisy_25.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_26
+  name: Trial 26
+  reference: subjective_test_V5_audio/clean_26.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_26.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_26.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_26.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_26.wav
+    Noisy: subjective_test_V5_audio/noisy_26.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_29
+  name: Trial 29
+  reference: subjective_test_V5_audio/clean_29.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_29.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_29.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_29.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_29.wav
+    Noisy: subjective_test_V5_audio/noisy_29.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_31
+  name: Trial 31
+  reference: subjective_test_V5_audio/clean_31.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_31.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_31.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_31.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_31.wav
+    Noisy: subjective_test_V5_audio/noisy_31.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_38
+  name: Trial 38
+  reference: subjective_test_V5_audio/clean_38.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_38.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_38.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_38.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_38.wav
+    Noisy: subjective_test_V5_audio/noisy_38.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_40
+  name: Trial 40
+  reference: subjective_test_V5_audio/clean_40.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_40.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_40.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_40.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_40.wav
+    Noisy: subjective_test_V5_audio/noisy_40.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_43
+  name: Trial 43
+  reference: subjective_test_V5_audio/clean_43.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_43.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_43.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_43.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_43.wav
+    Noisy: subjective_test_V5_audio/noisy_43.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_45
+  name: Trial 45
+  reference: subjective_test_V5_audio/clean_45.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_45.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_45.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_45.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_45.wav
+    Noisy: subjective_test_V5_audio/noisy_45.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_48
+  name: Trial 48
+  reference: subjective_test_V5_audio/clean_48.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_48.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_48.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_48.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_48.wav
+    Noisy: subjective_test_V5_audio/noisy_48.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_73
+  name: Trial 73
+  reference: subjective_test_V5_audio/clean_73.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_73.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_73.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_73.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_73.wav
+    Noisy: subjective_test_V5_audio/noisy_73.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_79
+  name: Trial 79
+  reference: subjective_test_V5_audio/clean_79.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_79.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_79.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_79.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_79.wav
+    Noisy: subjective_test_V5_audio/noisy_79.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_143
+  name: Trial 143
+  reference: subjective_test_V5_audio/clean_143.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_143.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_143.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_143.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_143.wav
+    Noisy: subjective_test_V5_audio/noisy_143.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_179
+  name: Trial 179
+  reference: subjective_test_V5_audio/clean_179.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_179.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_179.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_179.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_179.wav
+    Noisy: subjective_test_V5_audio/noisy_179.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_279
+  name: Trial 279
+  reference: subjective_test_V5_audio/clean_279.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_279.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_279.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_279.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_279.wav
+    Noisy: subjective_test_V5_audio/noisy_279.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_315
+  name: Trial 315
+  reference: subjective_test_V5_audio/clean_315.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_315.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_315.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_315.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_315.wav
+    Noisy: subjective_test_V5_audio/noisy_315.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_370
+  name: Trial 370
+  reference: subjective_test_V5_audio/clean_370.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_370.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_370.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_370.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_370.wav
+    Noisy: subjective_test_V5_audio/noisy_370.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_380
+  name: Trial 380
+  reference: subjective_test_V5_audio/clean_380.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_380.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_380.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_380.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_380.wav
+    Noisy: subjective_test_V5_audio/noisy_380.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_387
+  name: Trial 387
+  reference: subjective_test_V5_audio/clean_387.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_387.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_387.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_387.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_387.wav
+    Noisy: subjective_test_V5_audio/noisy_387.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_434
+  name: Trial 434
+  reference: subjective_test_V5_audio/clean_434.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_434.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_434.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_434.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_434.wav
+    Noisy: subjective_test_V5_audio/noisy_434.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_530
+  name: Trial 530
+  reference: subjective_test_V5_audio/clean_530.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_530.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_530.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_530.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_530.wav
+    Noisy: subjective_test_V5_audio/noisy_530.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_547
+  name: Trial 547
+  reference: subjective_test_V5_audio/clean_547.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_547.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_547.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_547.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_547.wav
+    Noisy: subjective_test_V5_audio/noisy_547.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_557
+  name: Trial 557
+  reference: subjective_test_V5_audio/clean_557.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_557.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_557.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_557.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_557.wav
+    Noisy: subjective_test_V5_audio/noisy_557.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_620
+  name: Trial 620
+  reference: subjective_test_V5_audio/clean_620.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_620.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_620.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_620.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_620.wav
+    Noisy: subjective_test_V5_audio/noisy_620.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_746
+  name: Trial 746
+  reference: subjective_test_V5_audio/clean_746.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_746.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_746.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_746.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_746.wav
+    Noisy: subjective_test_V5_audio/noisy_746.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_1131
+  name: Trial 1131
+  reference: subjective_test_V5_audio/clean_1131.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_1131.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_1131.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_1131.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_1131.wav
+    Noisy: subjective_test_V5_audio/noisy_1131.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_1169
+  name: Trial 1169
+  reference: subjective_test_V5_audio/clean_1169.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_1169.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_1169.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_1169.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_1169.wav
+    Noisy: subjective_test_V5_audio/noisy_1169.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_1172
+  name: Trial 1172
+  reference: subjective_test_V5_audio/clean_1172.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_1172.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_1172.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_1172.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_1172.wav
+    Noisy: subjective_test_V5_audio/noisy_1172.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_1254
+  name: Trial 1254
+  reference: subjective_test_V5_audio/clean_1254.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_1254.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_1254.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_1254.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_1254.wav
+    Noisy: subjective_test_V5_audio/noisy_1254.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_1467
+  name: Trial 1467
+  reference: subjective_test_V5_audio/clean_1467.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_1467.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_1467.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_1467.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_1467.wav
+    Noisy: subjective_test_V5_audio/noisy_1467.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_1597
+  name: Trial 1597
+  reference: subjective_test_V5_audio/clean_1597.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_1597.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_1597.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_1597.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_1597.wav
+    Noisy: subjective_test_V5_audio/noisy_1597.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_1768
+  name: Trial 1768
+  reference: subjective_test_V5_audio/clean_1768.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_1768.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_1768.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_1768.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_1768.wav
+    Noisy: subjective_test_V5_audio/noisy_1768.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_1806
+  name: Trial 1806
+  reference: subjective_test_V5_audio/clean_1806.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_1806.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_1806.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_1806.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_1806.wav
+    Noisy: subjective_test_V5_audio/noisy_1806.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- id: sample_1865
+  name: Trial 1865
+  reference: subjective_test_V5_audio/clean_1865.wav
+  stimuli:
+    Baseline: subjective_test_V5_audio/enhanced_baseline_1865.wav
+    Condition_A: subjective_test_V5_audio/enhanced_finetuned_A_1865.wav
+    Condition_B: subjective_test_V5_audio/enhanced_finetuned_B_1865.wav
+    Condition_C: subjective_test_V5_audio/enhanced_finetuned_C_1865.wav
+    Noisy: subjective_test_V5_audio/noisy_1865.wav
+  type: mushra
+  content: 'Please rate the <b>overall quality</b> of the processed speech compared
+    to the reference.
+
+
+    <b>Consider the following criteria in your rating:</b>
+
+    <ul>
+
+    <li><b>Intelligibility/Clarity:</b> How easy is it to understand the speech?</li>
+
+    <li><b>Noise Level:</b> How much background noise remains?</li>
+
+    <li><b>Naturalness:</b> Does the voice sound natural and unprocessed?</li>
+
+    </ul>
+
+
+    <b>Important Notes:</b>
+
+    <ul>
+
+    <li>Among the conditions below, one is the <b>clean reference</b> (same as the
+    reference above) and one is the <b>unprocessed noisy</b> sample. The others are
+    processed outputs from different enhancement methods.</li>
+
+    <li>Please <b>manually adjust your volume</b> to a comfortable level before rating.
+    Some samples may be louder than others - we apologize for this inconvenience.
+    Please ensure your ratings reflect <b>quality</b>, not just loudness.</li>
+
+    </ul>'
+- content: All done! Click submit.
+  id: end
+  type: finish
+submissionUrl: service/write.php
+testId: BSE_Results_V5
+testname: BSE Evaluation - Set V5
+remoteService: https://script.google.com/macros/s/AKfycbzuDlffWm1JexK7N9qQmj-Xc9CMfapS0Xs5b3rnc6zE8ZuqRP-9OaQVwgcCM1bwHnfG/exec
