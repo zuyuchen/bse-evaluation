@@ -2,8 +2,8 @@ testname: BSE Evaluation - Set V6
 testId: BSE_Results_V6
 bufferSize: 2048
 stopOnErrors: true
-showButtonPreviousPage: true
-remoteService: https://script.google.com/macros/s/AKfycbz6_OtckkE361_V0uD2X98rmg335h_iEmsTB2HJ1VlNbp25Mk2qo4u9sPNNCs1JzRRI/exec
+showButtonPreviousPage: false
+remoteService: https://script.google.com/macros/s/AKfycbx46SOszQMOx7v6wjaK3DNkXnQciEzTk3-YPZCzSUCWfkLYON54vnsx0bHs2jkXdbfr/exec
 pages:
 - content: <h3>Binaural Speech Enhancement Test</h3><p>Please ensure you are using
     <b>stereo headphones</b>.</p>
