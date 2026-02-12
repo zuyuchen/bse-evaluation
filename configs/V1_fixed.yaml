@@ -3,7 +3,7 @@ testId: BSE_Results_V1
 bufferSize: 2048
 stopOnErrors: false
 showButtonPreviousPage: true
-remoteService: https://script.google.com/macros/s/AKfycby9xiTWwx5jHklF4hKmmOKWuej9Byv21jzIVFyE1y8v8CbUEN2aVYPHSTu1MKPEXuDU/exec
+remoteService: https://script.google.com/macros/s/AKfycbyky5mFU-NicpksPORC625Xc1bDGlw_cARig7ZM-a4fV6DsUyDWMADSlQL947hyXmzS/exec
 pages:
 - content: <h3>Binaural Speech Enhancement Test</h3><p>Please ensure you are using
     <b>stereo headphones</b>.</p>
